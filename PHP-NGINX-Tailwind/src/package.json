@@ -1,0 +1,15 @@
+{
+  "name": "lemp-tailwind-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./public/css/styles.css -o ./public/dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "Arthur Markiz",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.4.11"
+  }
+}
